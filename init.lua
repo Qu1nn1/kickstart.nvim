@@ -105,6 +105,9 @@ vim.keymap.set('n', '<Tab>', ':bn<CR>', { desc = 'Next Buffer' })
 vim.keymap.set('n', '<S-Tab>', ':bp<CR>', { desc = 'Previous Buffer' })
 vim.keymap.set('n', '<leader>x', ':bd<CR>', { desc = 'Close Buffer' })
 
+-- Nvimtree
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Toggle NvimTree' })
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
